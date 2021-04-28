@@ -738,42 +738,42 @@ projects:
   homepage: https://github.com/ApolloAuto/apollo
   github_id: ApolloAuto/apollo
   image: ./screenshots/apollo.png
-  category: 无人驾驶
+  category: 自动驾驶
   show: true
 - name: carla
   description: carla-simulator carla
   homepage: https://github.com/carla-simulator/carla
   github_id: carla-simulator/carla
   image: ./screenshots/carla.png
-  category: 无人驾驶
+  category: 自动驾驶
   show: true
 - name: AutonomousDrivingCookbook
   description: microsoft AutonomousDrivingCookbook
   homepage: https://github.com/microsoft/AutonomousDrivingCookbook
   github_id: microsoft/AutonomousDrivingCookbook
   image: ./screenshots/AutonomousDrivingCookbook.png
-  category: 无人驾驶
+  category: 自动驾驶
   show: true
 - name: awesome-autonomous-vehicles
   description: manfreddiaz awesome-autonomous-vehicles
   homepage: https://github.com/manfreddiaz/awesome-autonomous-vehicles
   github_id: manfreddiaz/awesome-autonomous-vehicles
   image: ./screenshots/awesome-autonomous-vehicles.png
-  category: 无人驾驶
+  category: 自动驾驶
   show: true
 - name: Awesome-Autonomous-Driving
   description: autonomousdrivingkr Awesome-Autonomous-Driving
   homepage: https://github.com/autonomousdrivingkr/Awesome-Autonomous-Driving
   github_id: autonomousdrivingkr/Awesome-Autonomous-Driving
   image: ./screenshots/Awesome-Autonomous-Driving.png
-  category: 无人驾驶
+  category: 自动驾驶
   show: true
 - name: SMARTS
   description: huawei-noah SMARTS
   homepage: https://github.com/huawei-noah/SMARTS
   github_id: huawei-noah/SMARTS
   image: ./screenshots/SMARTS.png
-  category: 无人驾驶
+  category: 自动驾驶
   show: true
 - name: the-gan-zoo
   description: hindupuravinash the-gan-zoo
