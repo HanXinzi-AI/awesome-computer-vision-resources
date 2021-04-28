@@ -1,5 +1,5 @@
 configuration:
-  default_image: screenshots/NLP.jpeg
+  default_image: screenshots/CV.jpeg
   generate_legend: false
   generate_toc: true
   hide_empty_categories: true
