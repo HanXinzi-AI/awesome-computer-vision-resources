@@ -48,8 +48,8 @@ categories:
   title: 自动驾驶
 - category: 生成对抗网络GAN
   title: 生成对抗网络GAN
-- category: 模型压缩与知识蒸馏
-  title: 模型压缩与知识蒸馏
+- category: 模型压缩与优化
+  title: 模型压缩与优化
 - category: 其他
   title: 其他
 
@@ -857,61 +857,61 @@ projects:
   homepage: https://github.com/microsoft/nni
   github_id: microsoft/nni
   image: ./screenshots/nni.png
-  category: 模型压缩
+  category: 模型压缩与优化
   show: true
 - name: PocketFlow
   description: Tencent PocketFlow
   homepage: https://github.com/Tencent/PocketFlow
   github_id: Tencent/PocketFlow
   image: ./screenshots/PocketFlow.png
-  category: 模型压缩
+  category: 模型压缩与优化
   show: true
 - name: TNN
   description: Tencent TNN
   homepage: https://github.com/Tencent/TNN
   github_id: Tencent/TNN
   image: ./screenshots/TNN.png
-  category: 模型压缩
+  category: 模型压缩与优化
   show: true
 - name: micronet
   description: 666DZY666 micronet
   homepage: https://github.com/666DZY666/micronet
   github_id: 666DZY666/micronet
   image: ./screenshots/micronet.png
-  category: 模型压缩
+  category: 模型压缩与优化
   show: true
 - name: model-optimization
   description: tensorflow model-optimization
   homepage: https://github.com/tensorflow/model-optimization
   github_id: tensorflow/model-optimization
   image: ./screenshots/model-optimization.png
-  category: 模型压缩
+  category: 模型压缩与优化
   show: true
 - name: PaddleSlim
   description: PaddlePaddle PaddleSlim
   homepage: https://github.com/PaddlePaddle/PaddleSlim
   github_id: PaddlePaddle/PaddleSlim
   image: ./screenshots/PaddleSlim.png
-  category: 模型压缩
+  category: 模型压缩与优化
   show: true
 - name: Awesome-model-compression-and-acceleration
   description: memoiry Awesome-model-compression-and-acceleration
   homepage: https://github.com/memoiry/Awesome-model-compression-and-acceleration
   github_id: memoiry/Awesome-model-compression-and-acceleration
   image: ./screenshots/Awesome-model-compression-and-acceleration.png
-  category: 模型压缩
+  category: 模型压缩与优化
   show: true
 - name: aimet
   description: quic aimet
   homepage: https://github.com/quic/aimet
   github_id: quic/aimet
   image: ./screenshots/aimet.png
-  category: 模型压缩
+  category: 模型压缩与优化
   show: true
 - name: Data-Efficient-Model-Compression
   description: huawei-noah Data-Efficient-Model-Compression
   homepage: https://github.com/huawei-noah/Data-Efficient-Model-Compression
   github_id: huawei-noah/Data-Efficient-Model-Compression
   image: ./screenshots/Data-Efficient-Model-Compression.png
-  category: 模型压缩
+  category: 模型压缩与优化
   show: true
