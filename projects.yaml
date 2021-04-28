@@ -1,0 +1,917 @@
+configuration:
+  default_image: screenshots/NLP.jpeg
+  generate_legend: false
+  generate_toc: true
+  hide_empty_categories: true
+  ignore_github_screenshot: true
+  markdown_footer_file: config/footer.md
+  markdown_header_file: config/header.md
+  min_projectrank: 0
+  min_stars: 0
+  mobile_markdown_header_file: config/header-mobile.md
+  mobile_version: false
+  output_generator: markdown-gallery
+  project_dead_months: 10000
+  project_inactive_months: 12
+  project_new_months: 3
+  projects_per_category: 30
+  projects_per_row: 3
+  require_github: false
+  require_license: false
+  short_toc: false
+  skip_existing_screenshots: true
+  sort_by: star_count
+  wait_before_screenshot: 100
+
+categories:
+- category: 图像分类
+  title: 图像分类
+- category: 目标检测
+  title: 目标检测
+- category: 图像分割
+  title: 图像分割
+- category: OCR文字识别
+  title: OCR文字识别
+- category: 图文转换ImageCaptioning与视觉问答VQA
+  title: 图文转换ImageCaptioning与视觉问答VQA
+- category: 图图转换ImageTranslation
+  title: 图图转换ImageTranslation
+- category: 图像超分辨率
+  title: 图像超分辨率
+- category: 人脸检测与识别
+  title: 人脸检测与识别
+- category: 医疗影像
+  title: 医疗影像
+- category: 行人检测
+  title: 行人检测
+- category: 自动驾驶
+  title: 自动驾驶
+- category: 生成对抗网络GAN
+  title: 生成对抗网络GAN
+- category: 模型压缩与知识蒸馏
+  title: 模型压缩与知识蒸馏
+- category: 其他
+  title: 其他
+
+projects:
+- name: awesome-image-classification
+  description: weiaicunzai awesome-image-classification
+  homepage: https://github.com/weiaicunzai/awesome-image-classification
+  github_id: weiaicunzai/awesome-image-classification
+  image: ./screenshots/awesome-image-classification.png
+  category: 图像分类
+  show: true
+- name: facebookresearch-pycls
+  description: facebookresearch pycls
+  homepage: https://github.com/facebookresearch/pycls
+  github_id: facebookresearch/pycls
+  image: ./screenshots/facebookresearch-pycls.png
+  category: 图像分类
+  show: true
+- name: facebookresearch-ClassyVision
+  description: facebookresearch ClassyVision
+  homepage: https://github.com/facebookresearch/ClassyVision
+  github_id: facebookresearch/ClassyVision
+  image: ./screenshots/facebookresearch-ClassyVision.png
+  category: 图像分类
+  show: true
+- name: pytorch_image_classification
+  description: hysts pytorch_image_classification
+  homepage: https://github.com/hysts/pytorch_image_classification
+  github_id: hysts/pytorch_image_classification
+  image: ./screenshots/pytorch_image_classification.png
+  category: 图像分类
+  show: true
+- name: PaddlePaddle-PaddleClas
+  description: PaddlePaddle PaddleClas
+  homepage: https://github.com/PaddlePaddle/PaddleClas
+  github_id: PaddlePaddle/PaddleClas
+  image: ./screenshots/PaddlePaddle-PaddleClas.png
+  category: 图像分类
+  show: true
+- name: open-mmlab-mmclassification
+  description: open-mmlab mmclassification
+  homepage: https://github.com/open-mmlab/mmclassification
+  github_id: open-mmlab/mmclassification
+  image: ./screenshots/open-mmlab-mmclassification.png
+  category: 图像分类
+  show: true
+- name: NVIDIA-tf_to_trt_image_classification
+  description: NVIDIA-AI-IOT tf_to_trt_image_classification
+  homepage: https://github.com/NVIDIA-AI-IOT/tf_to_trt_image_classification
+  github_id: NVIDIA-AI-IOT/tf_to_trt_image_classification
+  image: ./screenshots/tf_to_trt_image_classification.png
+  category: 图像分类
+  show: true
+- name: pytorch-image-models
+  description: rwightman pytorch-image-models
+  homepage: https://github.com/rwightman/pytorch-image-models
+  github_id: NVIDIA-AI-IOT/tf_to_trt_image_classification
+  image: ./screenshots/pytorch-image-models.png
+  category: 图像分类
+  show: true
+- name: gen-efficientnet-pytorch
+  description: rwightman gen-efficientnet-pytorch
+  homepage: https://github.com/rwightman/gen-efficientnet-pytorch
+  github_id: rwightman/gen-efficientnet-pytorch
+  image: ./screenshots/gen-efficientnet-pytorch.png
+  category: 图像分类
+  show: true
+- name: Vision-Transformer
+  description: lucidrains vit-pytorch
+  homepage: https://github.com/lucidrains/vit-pytorch
+  github_id: lucidrains/vit-pytorch
+  image: ./screenshots/Vision-Transformer.png
+  category: 图像分类
+  show: true
+- name: deep_learning_object_detection
+  description: hoya012 deep_learning_object_detection
+  homepage: https://github.com/hoya012/deep_learning_object_detection
+  github_id: hoya012/deep_learning_object_detection
+  image: ./screenshots/deep_learning_object_detection.png
+  category: 目标检测
+  show: true
+- name: ObjectDetection-OneStageDet
+  description: Tencent ObjectDetection-OneStageDet
+  homepage: https://github.com/Tencent/ObjectDetection-OneStageDet
+  github_id: Tencent/ObjectDetection-OneStageDet
+  image: ./screenshots/ObjectDetection-OneStageDet.png
+  category: 目标检测
+  show: true
+- name: detectron2
+  description: facebookresearch detectron2
+  homepage: https://github.com/facebookresearch/detectron2
+  github_id: facebookresearch/detectron2
+  image: ./screenshots/detectron2.png
+  category: 目标检测
+  show: true
+- name: labelImg
+  description: tzutalin labelImg
+  homepage: https://github.com/tzutalin/labelImg
+  github_id: tzutalin/labelImg
+  image: ./screenshots/labelImg.png
+  category: 目标检测
+  show: true
+- name: facebookresearch-detr
+  description: facebookresearch detr
+  homepage: https://github.com/facebookresearch/detr
+  github_id: facebookresearch/detr
+  image: ./screenshots/facebookresearch-detr.png
+  category: 目标检测
+  show: true
+- name: microsoft-VoTT
+  description: microsoft VoTT
+  homepage: https://github.com/microsoft/VoTT
+  github_id: microsoft/VoTT
+  image: ./screenshots/microsoft-VoTT.png
+  category: 目标检测
+  show: true
+- name: TuSimple-simpledet
+  description: TuSimple simpledet
+  homepage: https://github.com/TuSimple/simpledet
+  github_id: TuSimple/simpledet
+  image: ./screenshots/TuSimple-simpledet.png
+  category: 目标检测
+  show: true
+- name: PaddleDetection
+  description: PaddleDetection
+  homepage: https://github.com/PaddlePaddle/PaddleDetection
+  github_id: PaddlePaddle/PaddleDetection
+  image: ./screenshots/PaddleDetection.png
+  category: 目标检测
+  show: true
+- name: open-mmlab-mmtracking
+  description: PaddleDetection
+  homepage: https://github.com/open-mmlab/mmtracking
+  github_id: open-mmlab/mmtracking
+  image: ./screenshots/open-mmlab-mmtracking.png
+  category: 目标检测
+  show: true
+- name: open-mmlab-mmdetection
+  description: open-mmlab-mmdetection
+  homepage: https://github.com/open-mmlab/mmdetection
+  github_id: open-mmlab/mmdetection
+  image: ./screenshots/open-mmlab-mmdetection.png
+  category: 目标检测
+  show: true
+- name: matterport-Mask_RCNN
+  description: matterport-Mask_RCNN
+  homepage: https://github.com/matterport/Mask_RCNN
+  github_id: matterport/Mask_RCNN
+  image: ./screenshots/matterport-Mask_RCNN.png
+  category: 目标检测
+  show: true
+- name: CenterNet
+  description: xingyizhou-CenterNet
+  homepage: https://github.com/xingyizhou/CenterNet
+  github_id: xingyizhou/CenterNet
+  image: ./screenshots/xingyizhou-CenterNet.png
+  category: 目标检测
+  show: true
+- name: U-2-Net
+  description: xuebinqin-U-2-Net
+  homepage: https://github.com/xuebinqin/U-2-Net
+  github_id: xuebinqin/U-2-Net
+  image: ./screenshots/xuebinqin-U-2-Net.png
+  category: 目标检测
+  show: true
+- name: openmmlab-mmsegmentation
+  description: openmmlab-mmsegmentation
+  homepage: https://github.com/open-mmlab/mmsegmentation
+  github_id: open-mmlab/mmsegmentation
+  image: ./screenshots/open-mmlab-mmsegmentation.png
+  category: 图像分割
+  show: true
+- name: awesome-semantic-segmentation
+  description: awesome-semantic-segmentation
+  homepage: https://github.com/mrgloom/awesome-semantic-segmentation
+  github_id: mrgloom/awesome-semantic-segmentation
+  image: ./screenshots/awesome-semantic-segmentation.png
+  category: 图像分割
+  show: true
+- name: image-segmentation-keras
+  description: divamgupta image-segmentation-keras
+  homepage: https://github.com/divamgupta/image-segmentation-keras
+  github_id: divamgupta/image-segmentation-keras
+  image: ./screenshots/image-segmentation-keras.png
+  category: 图像分割
+  show: true
+- name: PaddleSeg
+  description: PaddlePaddle PaddleSeg
+  homepage: https://github.com/PaddlePaddle/PaddleSeg
+  github_id: PaddlePaddle/PaddleSeg
+  image: ./screenshots/PaddleSeg.png
+  category: 图像分割
+  show: true
+- name: Image_Segmentation
+  description: LeeJunHyun Image_Segmentation
+  homepage: https://github.com/LeeJunHyun/Image_Segmentation
+  github_id: LeeJunHyun/Image_Segmentation
+  image: ./screenshots/LeeJunHyun-Image_Segmentation.png
+  category: 图像分割
+  show: true
+- name: medical-detection-toolkit
+  description: MIC-DKFZ medicaldetectiontoolkit
+  homepage: https://github.com/MIC-DKFZ/medicaldetectiontoolkit
+  github_id: MIC-DKFZ/medicaldetectiontoolkit
+  image: ./screenshots/medicaldetectiontoolkit.png
+  category: 图像分割
+  show: true
+- name: pytorch-segmentation-detection
+  description: pytorch-segmentation-detection
+  homepage: https://github.com/warmspringwinds/pytorch-segmentation-detection
+  github_id: warmspringwinds/pytorch-segmentation-detection
+  image: ./screenshots/pytorch-segmentation-detection.png
+  category: 图像分割
+  show: true
+- name: MedicalZooPytorch
+  description: black0017-MedicalZooPytorch
+  homepage: https://github.com/black0017/MedicalZooPytorch
+  github_id: black0017/MedicalZooPytorch
+  image: ./screenshots/MedicalZooPytorch.png
+  category: 图像分割
+  show: true
+- name: tesseract
+  description: tesseract-ocr-tesseract
+  homepage: https://github.com/tesseract-ocr/tesseract
+  github_id: tesseract-ocr/tesseract
+  image: ./screenshots/tesseract.png
+  category: OCR文字识别
+  show: true
+- name: PaddleOCR
+  description: PaddlePaddle PaddleOCR
+  homepage: https://github.com/PaddlePaddle/PaddleOCR
+  github_id: PaddlePaddle/PaddleOCR
+  image: ./screenshots/PaddleOCR.png
+  category: OCR文字识别
+  show: true
+- name: EasyOCR
+  description: JaidedAI EasyOCR
+  homepage: https://github.com/JaidedAI/EasyOCR
+  github_id: JaidedAI/EasyOCR
+  image: ./screenshots/EasyOCR.png
+  category: OCR文字识别
+  show: true
+- name: chineseocr_lite
+  description: DayBreak-u chineseocr_lite
+  homepage: https://github.com/DayBreak-u/chineseocr_lite
+  github_id: DayBreak-u/chineseocr_lite
+  image: ./screenshots/chineseocr_lite.png
+  category: OCR文字识别
+  show: true
+- name: PandaOCR
+  description: miaomiaosoft PandaOCR
+  homepage: https://github.com/miaomiaosoft/PandaOCR
+  github_id: miaomiaosoft/PandaOCR
+  image: ./screenshots/PandaOCR.png
+  category: OCR文字识别
+  show: true
+- name: CHINESE-OCR
+  description: xiaofengShi CHINESE-OCR
+  homepage: https://github.com/xiaofengShi/CHINESE-OCR
+  github_id: xiaofengShi/CHINESE-OCR
+  image: ./screenshots/CHINESE-OCR.png
+  category: OCR文字识别
+  show: true
+- name: chinese_ocr
+  description: YCG09 chinese_ocr
+  homepage: https://github.com/YCG09/chinese_ocr
+  github_id: YCG09/chinese_ocr
+  image: ./screenshots/chinese_ocr.png
+  category: OCR文字识别
+  show: true
+- name: deep-text-recognition-benchmark
+  description: clovaai deep-text-recognition-benchmark
+  homepage: https://github.com/clovaai/deep-text-recognition-benchmark
+  github_id: clovaai/deep-text-recognition-benchmark
+  image: ./screenshots/chinese_ocr.png
+  category: OCR文字识别
+  show: true
+- name: ctrip-OCR
+  description: ctripcorp C-OCR
+  homepage: https://github.com/ctripcorp/C-OCR
+  github_id: ctripcorp/C-OCR
+  image: ./screenshots/C-OCR.png
+  category: OCR文字识别
+  show: true
+- name: captcha_break
+  description: ypwhs captcha_break
+  homepage: https://github.com/ypwhs/captcha_break
+  github_id: ypwhs/captcha_break
+  image: ./screenshots/captcha_break.png
+  category: OCR文字识别
+  show: true
+- name: captcha_trainer
+  description: kerlomz captcha_trainer
+  homepage: https://github.com/kerlomz/captcha_trainer
+  github_id: kerlomz/captcha_trainer
+  image: ./screenshots/captcha_trainer.png
+  category: OCR文字识别
+  show: true
+- name: facebookresearch-mmf
+  description: facebookresearch mmf
+  homepage: https://github.com/facebookresearch/mmf
+  github_id: facebookresearch/mmf
+  image: ./screenshots/facebookresearch-mmf.png
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: bottom-up-attention
+  description: peteanderson80 bottom-up-attention
+  homepage: https://github.com/peteanderson80/bottom-up-attention
+  github_id: peteanderson80/bottom-up-attention
+  image: ./screenshots/fbottom-up-attention.png
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: microsoft-Oscar
+  description: microsoft Oscar
+  homepage: https://github.com/microsoft/Oscar
+  github_id: microsoft/Oscar
+  image: ./screenshots/microsoft-Oscar.png
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: awesome-visual-question-answering
+  description: jokieleung awesome-visual-question-answering
+  homepage: https://github.com/jokieleung/awesome-visual-question-answering
+  github_id: jokieleung/awesome-visual-question-answering
+  image: ./screenshots/awesome-visual-question-answering.png
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: MILVLG-openvqa
+  description: MILVLG openvqa
+  homepage: https://github.com/MILVLG/openvqa
+  github_id: MILVLG/openvqa
+  image: ./screenshots/MILVLG-openvqa.png
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: awesome-image-captioning
+  description: zhjohnchan awesome-image-captioning
+  homepage: https://github.com/zhjohnchan/awesome-image-captioning
+  github_id: zhjohnchan/awesome-image-captioning
+  image: ./screenshots/awesome-image-captioning.png
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: conceptual-captions
+  description: google-research-datasets conceptual-captions
+  homepage: https://github.com/google-research-datasets/conceptual-captions
+  github_id: google-research-datasets/conceptual-captions
+  image: ./screenshots/conceptual-captions.png
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: Awesome-Visual-Captioning
+  description: forence Awesome-Visual-Captioning
+  homepage: https://github.com/forence/Awesome-Visual-Captioning
+  github_id: forence/Awesome-Visual-Captioning
+  image: ./screenshots/Awesome-Visual-Captioning.png
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: meshed-memory-transformer
+  description: aimagelab meshed-memory-transformer
+  homepage: https://github.com/aimagelab/meshed-memory-transformer
+  github_id: aimagelab/meshed-memory-transformer
+  image: ./screenshots/meshed-memory-transformer.png
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: image-captioning
+  description: JDAI-CV image-captioning
+  homepage: https://github.com/JDAI-CV/image-captioning
+  github_id: JDAI-CV/image-captioning
+  image: ./screenshots/JDAI-CV-image-captioning.png
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: Image-Caption-Generator
+  description: dabasajay Image-Caption-Generator
+  homepage: https://github.com/dabasajay/Image-Caption-Generator
+  github_id: dabasajay/Image-Caption-Generator
+  image: ./screenshots/Image-Caption-Generator.png
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: NVlabs-MUNIT
+  description: NVlabs MUNIT
+  homepage: https://github.com/NVlabs/MUNIT
+  github_id: NVlabs/MUNIT
+  image: ./screenshots/NVlabs-MUNIT.png
+  category: 图图转换ImageTranslation
+  show: true
+- name: UGATIT
+  description: taki0112 UGATIT
+  homepage: https://github.com/taki0112/UGATIT
+  github_id: taki0112/UGATIT
+  image: ./screenshots/UGATIT.png
+  category: 图图转换ImageTranslation
+  show: true
+- name: pix2pix
+  description: phillipi pix2pix
+  homepage: https://github.com/phillipi/pix2pix
+  github_id: phillipi/pix2pix
+  image: ./screenshots/pix2pix.png
+  category: 图图转换ImageTranslation
+  show: true
+- name: pytorch-CycleGAN-and-pix2pix
+  description: junyanz pytorch-CycleGAN-and-pix2pix
+  homepage: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+  github_id: junyanz/pytorch-CycleGAN-and-pix2pix
+  image: ./screenshots/pytorch-CycleGAN-and-pix2pix.png
+  category: 图图转换ImageTranslation
+  show: true
+- name: UGATIT-pytorch
+  description: znxlwm UGATIT-pytorch
+  homepage: https://github.com/znxlwm/UGATIT-pytorch
+  github_id: znxlwm/UGATIT-pytorch
+  image: ./screenshots/UGATIT-pytorch.png
+  category: 图图转换ImageTranslation
+  show: true
+- name: pixel2style2pixel
+  description: eladrich pixel2style2pixel
+  homepage: https://github.com/eladrich/pixel2style2pixel
+  github_id: eladrich/pixel2style2pixel
+  image: ./screenshots/pixel2style2pixel.png
+  category: 图图转换ImageTranslation
+  show: true
+- name: instagan
+  description: sangwoomo instagan
+  homepage: https://github.com/sangwoomo/instagan
+  github_id: sangwoomo/instagan
+  image: ./screenshots/instagan.png
+  category: 图图转换ImageTranslation
+  show: true
+- name: DRIT
+  description: HsinYingLee DRIT
+  homepage: https://github.com/HsinYingLee/DRIT
+  github_id: HsinYingLee/DRIT
+  image: ./screenshots/DRIT.png
+  category: 图图转换ImageTranslation
+  show: true
+- name: vid2vid
+  description: NVIDIA vid2vid
+  homepage: https://github.com/NVIDIA/vid2vid
+  github_id: NVIDIA/vid2vid
+  image: ./screenshots/vid2vid.png
+  category: 图图转换ImageTranslation
+  show: true
+- name: waifu2x
+  description: nagadomi waifu2x
+  homepage: https://github.com/nagadomi/waifu2x
+  github_id: nagadomi/waifu2x
+  image: ./screenshots/waifu2x.png
+  category: 图像超分辨率
+  show: true
+- name: srez
+  description: david-gpu srez
+  homepage: https://github.com/david-gpu/srez
+  github_id: david-gpu/srez
+  image: ./screenshots/srez.png
+  category: 图像超分辨率
+  show: true
+- name: ESRGAN
+  description: xinntao ESRGAN
+  homepage: https://github.com/xinntao/ESRGAN
+  github_id: xinntao/ESRGAN
+  image: ./screenshots/ESRGAN.png
+  category: 图像超分辨率
+  show: true
+- name: image-super-resolution
+  description: idealo image-super-resolution
+  homepage: https://github.com/idealo/image-super-resolution
+  github_id: idealo/image-super-resolution
+  image: ./screenshots/image-super-resolution.png
+  category: 图像超分辨率
+  show: true
+- name: srgan
+  description: tensorlayer srgan
+  homepage: https://github.com/tensorlayer/srgan
+  github_id: tensorlayer/srgan
+  image: ./screenshots/srgan.png
+  category: 图像超分辨率
+  show: true
+- name: BasicSR
+  description: xinntao BasicSR
+  homepage: https://github.com/xinntao/BasicSR
+  github_id: xinntao/BasicSR
+  image: ./screenshots/BasicSR.png
+  category: 图像超分辨率
+  show: true
+- name: Single-Image-Super-Resolution
+  description: YapengTian Single-Image-Super-Resolution
+  homepage: https://github.com/YapengTian/Single-Image-Super-Resolution
+  github_id: YapengTian/Single-Image-Super-Resolution
+  image: ./screenshots/Single-Image-Super-Resolution.png
+  category: 图像超分辨率
+  show: true
+- name: VideoSuperResolution
+  description: LoSealL VideoSuperResolution
+  homepage: https://github.com/LoSealL/VideoSuperResolution
+  github_id: LoSealL/VideoSuperResolution
+  image: ./screenshots/VideoSuperResolution.png
+  category: 图像超分辨率
+  show: true
+- name: super-resolution
+  description: krasserm super-resolution
+  homepage: https://github.com/krasserm/super-resolution
+  github_id: krasserm/super-resolution
+  image: ./screenshots/super-resolution.png
+  category: 图像超分辨率
+  show: true
+- name: Awesome-Super-Resolution
+  description: ChaofWang Awesome-Super-Resolution
+  homepage: https://github.com/ChaofWang/Awesome-Super-Resolution
+  github_id: ChaofWang/Awesome-Super-Resolution
+  image: ./screenshots/Awesome-Super-Resolution.png
+  category: 图像超分辨率
+  show: true
+- name: DBFace
+  description: dlunion DBFace
+  homepage: https://github.com/dlunion/DBFace
+  github_id: dlunion/DBFace
+  image: ./screenshots/DBFace.png
+  category: 人脸检测与识别
+  show: true
+- name: facenet-pytorch
+  description: timesler facenet-pytorch
+  homepage: https://github.com/timesler/facenet-pytorch
+  github_id: timesler/facenet-pytorch
+  image: ./screenshots/facenet-pytorch.png
+  category: 人脸检测与识别
+  show: true
+- name: awesome-Face_Recognition
+  description: ChanChiChoi awesome-Face_Recognition
+  homepage: https://github.com/ChanChiChoi/awesome-Face_Recognition
+  github_id: ChanChiChoi/awesome-Face_Recognition
+  image: ./screenshots/awesome-Face_Recognition.png
+  category: 人脸检测与识别
+  show: true
+- name: Ultra-Light-Fast-Generic-Face-Detector-1MB
+  description: Linzaer Ultra-Light-Fast-Generic-Face-Detector-1MB
+  homepage: https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
+  github_id: Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
+  image: ./screenshots/Ultra-Light-Fast-Generic-Face-Detector-1MB.png
+  category: 人脸检测与识别
+  show: true
+- name: libfacedetection
+  description: ShiqiYu libfacedetection
+  homepage: https://github.com/ShiqiYu/libfacedetection
+  github_id: ShiqiYu/libfacedetection
+  image: ./screenshots/libfacedetection.png
+  category: 人脸检测与识别
+  show: true
+- name: openpose
+  description: CMU-Perceptual-Computing-Lab openpose
+  homepage: https://github.com/CMU-Perceptual-Computing-Lab/openpose
+  github_id: CMU-Perceptual-Computing-Lab/openpose
+  image: ./screenshots/openpose.png
+  category: 人脸检测与识别
+  show: true
+- name: face_recognition
+  description: ageitgey face_recognition
+  homepage: https://github.com/ageitgey/face_recognition
+  github_id: ageitgey/face_recognition
+  image: ./screenshots/face_recognition.png
+  category: 人脸检测与识别
+  show: true
+- name: openface
+  description: cmusatyalab openface
+  homepage: https://github.com/cmusatyalab/openface
+  github_id: cmusatyalab/openface
+  image: ./screenshots/openface.png
+  category: 人脸检测与识别
+  show: true
+- name: facenet
+  description: davidsandberg facenet
+  homepage: https://github.com/davidsandberg/facenet
+  github_id: davidsandberg/facenet
+  image: ./screenshots/facenet.png
+  category: 人脸检测与识别
+  show: true
+- name: facenet-pytorch
+  description: timesler facenet-pytorch
+  homepage: https://github.com/timesler/facenet-pytorch
+  github_id: timesler/facenet-pytorch
+  image: ./screenshots/facenet-pytorch.png
+  category: 人脸检测与识别
+  show: true
+- name: DeepFace
+  description: RiweiChen DeepFace
+  homepage: https://github.com/RiweiChen/DeepFace
+  github_id: RiweiChen/DeepFace
+  image: ./screenshots/DeepFace.png
+  category: 人脸检测与识别
+  show: true
+- name: deepface
+  description: serengil deepface
+  homepage: https://github.com/serengil/deepface
+  github_id: serengil/deepface
+  image: ./screenshots/deepface.png
+  category: 人脸检测与识别
+  show: true
+- name: awesome-gan-for-medical-imaging
+  description: xinario awesome-gan-for-medical-imaging
+  homepage: https://github.com/xinario/awesome-gan-for-medical-imaging
+  github_id: xinario/awesome-gan-for-medical-imaging
+  image: ./screenshots/awesome-gan-for-medical-imaging.png
+  category: 医疗影像
+  show: true
+- name: Deep-Learning-for-Medical-Applications
+  description: albarqouni Deep-Learning-for-Medical-Applications
+  homepage: https://github.com/albarqouni/Deep-Learning-for-Medical-Applications
+  github_id: albarqouni/Deep-Learning-for-Medical-Applications
+  image: ./screenshots/Deep-Learning-for-Medical-Applications.png
+  category: 医疗影像
+  show: true
+- name: medical-imaging-datasets
+  description: sfikas medical-imaging-datasets
+  homepage: https://github.com/sfikas/medical-imaging-datasets
+  github_id: sfikas/medical-imaging-datasets
+  image: ./screenshots/medical-imaging-datasets.png
+  category: 医疗影像
+  show: true
+- name: DLTK
+  description: DLTK DLTK
+  homepage: https://github.com/DLTK/DLTK
+  github_id: DLTK/DLTK
+  image: ./screenshots/DLTK.png
+  category: 医疗影像
+  show: true
+- name: MITK
+  description: MITK MITK
+  homepage: https://github.com/MITK/MITK
+  github_id: MITK/MITK
+  image: ./screenshots/MITK.png
+  category: 医疗影像
+  show: true
+- name: medicaltorch
+  description: perone medicaltorch
+  homepage: https://github.com/perone/medicaltorch
+  github_id: perone/medicaltorch
+  image: ./screenshots/medicaltorch.png
+  category: 医疗影像
+  show: true
+- name: MedicalZoo-Pytorch
+  description: black0017 MedicalZooPytorch
+  homepage: https://github.com/black0017/MedicalZooPytorch
+  github_id: black0017/MedicalZooPytorch
+  image: ./screenshots/MedicalZooPytorch.png
+  category: 医疗影像
+  show: true
+- name: medical-detection-toolkit
+  description: MIC-DKFZ-medicaldetectiontoolkit
+  homepage: https://github.com/MIC-DKFZ/medicaldetectiontoolkit
+  github_id: MIC-DKFZ/medicaldetectiontoolkit
+  image: ./screenshots/medicaldetectiontoolkit.png
+  category: 医疗影像
+  show: true
+- name: LFFD-A-Light-and-Fast-Face-Detector-for-Edge-Devices
+  description: YonghaoHe LFFD-A-Light-and-Fast-Face-Detector-for-Edge-Devices
+  homepage: https://github.com/YonghaoHe/LFFD-A-Light-and-Fast-Face-Detector-for-Edge-Devices
+  github_id: YonghaoHe/LFFD-A-Light-and-Fast-Face-Detector-for-Edge-Devices
+  image: ./screenshots/LFFD-A-Light-and-Fast-Face-Detector-for-Edge-Devices.png
+  category: 行人检测
+  show: true
+- name: Pedestron
+  description: hasanirtiza Pedestron
+  homepage: https://github.com/hasanirtiza/Pedestron
+  github_id: hasanirtiza/Pedestron
+  image: ./screenshots/Pedestron.png
+  category: 行人检测
+  show: true
+- name: Pedestrian-Detection
+  description: thatbrguy Pedestrian-Detection
+  homepage: https://github.com/thatbrguy/Pedestrian-Detection
+  github_id: thatbrguy/Pedestrian-Detection
+  image: ./screenshots/Pedestrian-Detection.png
+  category: 行人检测
+  show: true
+- name: Pedestrian-Detection-papers
+  description: xingkongliang Pedestrian-Detection
+  homepage: https://github.com/xingkongliang/Pedestrian-Detection
+  github_id: xingkongliang/Pedestrian-Detection
+  image: ./screenshots/Pedestrian-Detection-papers.png
+  category: 行人检测
+  show: true
+- name: PedestrianDetectionSystem
+  description: zhangpengpengpeng PedestrianDetectionSystem
+  homepage: https://github.com/zhangpengpengpeng/PedestrianDetectionSystem
+  github_id: zhangpengpengpeng/PedestrianDetectionSystem
+  image: ./screenshots/PedestrianDetectionSystem.png
+  category: 行人检测
+  show: true
+- name: apollo
+  description: ApolloAuto apollo
+  homepage: https://github.com/ApolloAuto/apollo
+  github_id: ApolloAuto/apollo
+  image: ./screenshots/apollo.png
+  category: 无人驾驶
+  show: true
+- name: carla
+  description: carla-simulator carla
+  homepage: https://github.com/carla-simulator/carla
+  github_id: carla-simulator/carla
+  image: ./screenshots/carla.png
+  category: 无人驾驶
+  show: true
+- name: AutonomousDrivingCookbook
+  description: microsoft AutonomousDrivingCookbook
+  homepage: https://github.com/microsoft/AutonomousDrivingCookbook
+  github_id: microsoft/AutonomousDrivingCookbook
+  image: ./screenshots/AutonomousDrivingCookbook.png
+  category: 无人驾驶
+  show: true
+- name: awesome-autonomous-vehicles
+  description: manfreddiaz awesome-autonomous-vehicles
+  homepage: https://github.com/manfreddiaz/awesome-autonomous-vehicles
+  github_id: manfreddiaz/awesome-autonomous-vehicles
+  image: ./screenshots/awesome-autonomous-vehicles.png
+  category: 无人驾驶
+  show: true
+- name: Awesome-Autonomous-Driving
+  description: autonomousdrivingkr Awesome-Autonomous-Driving
+  homepage: https://github.com/autonomousdrivingkr/Awesome-Autonomous-Driving
+  github_id: autonomousdrivingkr/Awesome-Autonomous-Driving
+  image: ./screenshots/Awesome-Autonomous-Driving.png
+  category: 无人驾驶
+  show: true
+- name: SMARTS
+  description: huawei-noah SMARTS
+  homepage: https://github.com/huawei-noah/SMARTS
+  github_id: huawei-noah/SMARTS
+  image: ./screenshots/SMARTS.png
+  category: 无人驾驶
+  show: true
+- name: the-gan-zoo
+  description: hindupuravinash the-gan-zoo
+  homepage: https://github.com/hindupuravinash/the-gan-zoo
+  github_id: hindupuravinash/the-gan-zoo
+  image: ./screenshots/the-gan-zoo.png
+  category: 生成对抗网络GAN
+  show: true
+- name: ganhacks
+  description: soumith ganhacks
+  homepage: https://github.com/soumith/ganhacks
+  github_id: soumith/ganhacks
+  image: ./screenshots/ganhacks.png
+  category: 生成对抗网络GAN
+  show: true
+- name: PyTorch-GAN
+  description: eriklindernoren PyTorch-GAN
+  homepage: https://github.com/eriklindernoren/PyTorch-GAN
+  github_id: eriklindernoren/PyTorch-GAN
+  image: ./screenshots/PyTorch-GAN.png
+  category: 生成对抗网络GAN
+  show: true
+- name: Keras-GAN
+  description: eriklindernoren Keras-GAN
+  homepage: https://github.com/eriklindernoren/Keras-GAN
+  github_id: eriklindernoren/Keras-GAN
+  image: ./screenshots/Keras-GAN.png
+  category: 生成对抗网络GAN
+  show: true
+- name: tensorflow-generative-model-collections
+  description: hwalsuklee tensorflow-generative-model-collections
+  homepage: https://github.com/hwalsuklee/tensorflow-generative-model-collections
+  github_id: hwalsuklee/tensorflow-generative-model-collections
+  image: ./screenshots/tensorflow-generative-model-collections.png
+  category: 生成对抗网络GAN
+  show: true
+- name: gans-awesome-applications
+  description: nashory gans-awesome-applications
+  homepage: https://github.com/nashory/gans-awesome-applications
+  github_id: nashory/gans-awesome-applications
+  image: ./screenshots/gans-awesome-applications.png
+  category: 生成对抗网络GAN
+  show: true
+- name: really-awesome-gan
+  description: nightrome really-awesome-gan
+  homepage: https://github.com/nightrome/really-awesome-gan
+  github_id: nightrome/really-awesome-gan
+  image: ./screenshots/really-awesome-gan.png
+  category: 生成对抗网络GAN
+  show: true
+- name: PaddleGAN
+  description: PaddlePaddle PaddleGAN
+  homepage: https://github.com/PaddlePaddle/PaddleGAN
+  github_id: PaddlePaddle/PaddleGAN
+  image: ./screenshots/PaddleGAN.png
+  category: 生成对抗网络GAN
+  show: true
+- name: pytorch-generative-model-collections
+  description: znxlwm pytorch-generative-model-collections
+  homepage: https://github.com/znxlwm/pytorch-generative-model-collections
+  github_id: znxlwm/pytorch-generative-model-collections
+  image: ./screenshots/pytorch-generative-model-collections.png
+  category: 生成对抗网络GAN
+  show: true
+- name: pytorch_GAN_zoo
+  description: facebookresearch pytorch_GAN_zoo
+  homepage: https://github.com/facebookresearch/pytorch_GAN_zoo
+  github_id: facebookresearch/pytorch_GAN_zoo
+  image: ./screenshots/pytorch_GAN_zoo.png
+  category: 生成对抗网络GAN
+  show: true
+- name: Advanced-Deep-Learning-with-Keras
+  description: PacktPublishing Advanced-Deep-Learning-with-Keras
+  homepage: https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras
+  github_id: PacktPublishing/Advanced-Deep-Learning-with-Keras
+  image: ./screenshots/Advanced-Deep-Learning-with-Keras.png
+  category: 生成对抗网络GAN
+  show: true
+- name: nni
+  description: microsoft nni
+  homepage: https://github.com/microsoft/nni
+  github_id: microsoft/nni
+  image: ./screenshots/nni.png
+  category: 模型压缩
+  show: true
+- name: PocketFlow
+  description: Tencent PocketFlow
+  homepage: https://github.com/Tencent/PocketFlow
+  github_id: Tencent/PocketFlow
+  image: ./screenshots/PocketFlow.png
+  category: 模型压缩
+  show: true
+- name: TNN
+  description: Tencent TNN
+  homepage: https://github.com/Tencent/TNN
+  github_id: Tencent/TNN
+  image: ./screenshots/TNN.png
+  category: 模型压缩
+  show: true
+- name: micronet
+  description: 666DZY666 micronet
+  homepage: https://github.com/666DZY666/micronet
+  github_id: 666DZY666/micronet
+  image: ./screenshots/micronet.png
+  category: 模型压缩
+  show: true
+- name: model-optimization
+  description: tensorflow model-optimization
+  homepage: https://github.com/tensorflow/model-optimization
+  github_id: tensorflow/model-optimization
+  image: ./screenshots/model-optimization.png
+  category: 模型压缩
+  show: true
+- name: PaddleSlim
+  description: PaddlePaddle PaddleSlim
+  homepage: https://github.com/PaddlePaddle/PaddleSlim
+  github_id: PaddlePaddle/PaddleSlim
+  image: ./screenshots/PaddleSlim.png
+  category: 模型压缩
+  show: true
+- name: Awesome-model-compression-and-acceleration
+  description: memoiry Awesome-model-compression-and-acceleration
+  homepage: https://github.com/memoiry/Awesome-model-compression-and-acceleration
+  github_id: memoiry/Awesome-model-compression-and-acceleration
+  image: ./screenshots/Awesome-model-compression-and-acceleration.png
+  category: 模型压缩
+  show: true
+- name: aimet
+  description: quic aimet
+  homepage: https://github.com/quic/aimet
+  github_id: quic/aimet
+  image: ./screenshots/aimet.png
+  category: 模型压缩
+  show: true
+- name: Data-Efficient-Model-Compression
+  description: huawei-noah Data-Efficient-Model-Compression
+  homepage: https://github.com/huawei-noah/Data-Efficient-Model-Compression
+  github_id: huawei-noah/Data-Efficient-Model-Compression
+  image: ./screenshots/Data-Efficient-Model-Compression.png
+  category: 模型压缩
+  show: true
