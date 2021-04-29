@@ -106,7 +106,7 @@ projects:
 - name: pytorch-image-models
   description: rwightman pytorch-image-models
   homepage: https://github.com/rwightman/pytorch-image-models
-  github_id: NVIDIA-AI-IOT/tf_to_trt_image_classification
+  github_id: rwightman/pytorch-image-models
   image: ./screenshots/pytorch-image-models.png
   category: 图像分类
   show: true
@@ -142,14 +142,14 @@ projects:
   description: facebookresearch detectron2
   homepage: https://github.com/facebookresearch/detectron2
   github_id: facebookresearch/detectron2
-  image: ./screenshots/detectron2.png
+  image: ./screenshots/detectron2.gif
   category: 目标检测
   show: true
 - name: labelImg
   description: tzutalin labelImg
   homepage: https://github.com/tzutalin/labelImg
   github_id: tzutalin/labelImg
-  image: ./screenshots/labelImg.png
+  image: ./screenshots/labelImg.jpeg
   category: 目标检测
   show: true
 - name: facebookresearch-detr
@@ -177,14 +177,14 @@ projects:
   description: PaddleDetection
   homepage: https://github.com/PaddlePaddle/PaddleDetection
   github_id: PaddlePaddle/PaddleDetection
-  image: ./screenshots/PaddleDetection.png
+  image: ./screenshots/PaddleDetection.jpeg
   category: 目标检测
   show: true
 - name: open-mmlab-mmtracking
   description: PaddleDetection
   homepage: https://github.com/open-mmlab/mmtracking
   github_id: open-mmlab/mmtracking
-  image: ./screenshots/open-mmlab-mmtracking.png
+  image: ./screenshots/open-mmlab-mmtracking.gif
   category: 目标检测
   show: true
 - name: open-mmlab-mmdetection
@@ -205,7 +205,7 @@ projects:
   description: xingyizhou-CenterNet
   homepage: https://github.com/xingyizhou/CenterNet
   github_id: xingyizhou/CenterNet
-  image: ./screenshots/xingyizhou-CenterNet.png
+  image: ./screenshots/xingyizhou-CenterNet.jpeg
   category: 目标检测
   show: true
 - name: U-2-Net
@@ -226,7 +226,7 @@ projects:
   description: awesome-semantic-segmentation
   homepage: https://github.com/mrgloom/awesome-semantic-segmentation
   github_id: mrgloom/awesome-semantic-segmentation
-  image: ./screenshots/awesome-semantic-segmentation.png
+  image: ./screenshots/awesome-semantic-segmentation.jpeg
   category: 图像分割
   show: true
 - name: image-segmentation-keras
@@ -240,14 +240,14 @@ projects:
   description: PaddlePaddle PaddleSeg
   homepage: https://github.com/PaddlePaddle/PaddleSeg
   github_id: PaddlePaddle/PaddleSeg
-  image: ./screenshots/PaddleSeg.png
+  image: ./screenshots/PaddleSeg.gif
   category: 图像分割
   show: true
 - name: Image_Segmentation
   description: LeeJunHyun Image_Segmentation
   homepage: https://github.com/LeeJunHyun/Image_Segmentation
   github_id: LeeJunHyun/Image_Segmentation
-  image: ./screenshots/LeeJunHyun-Image_Segmentation.png
+  image: ./screenshots/LeeJunHyun-Image_Segmentation.jpeg
   category: 图像分割
   show: true
 - name: medical-detection-toolkit
@@ -324,7 +324,7 @@ projects:
   description: clovaai deep-text-recognition-benchmark
   homepage: https://github.com/clovaai/deep-text-recognition-benchmark
   github_id: clovaai/deep-text-recognition-benchmark
-  image: ./screenshots/chinese_ocr.png
+  image: ./screenshots/chinese_ocr.jpeg
   category: OCR文字识别
   show: true
 - name: ctrip-OCR
@@ -359,7 +359,7 @@ projects:
   description: peteanderson80 bottom-up-attention
   homepage: https://github.com/peteanderson80/bottom-up-attention
   github_id: peteanderson80/bottom-up-attention
-  image: ./screenshots/fbottom-up-attention.png
+  image: ./screenshots/bottom-up-attention.jpeg
   category: 图文转换ImageCaptioning与视觉问答VQA
   show: true
 - name: microsoft-Oscar
@@ -373,7 +373,7 @@ projects:
   description: jokieleung awesome-visual-question-answering
   homepage: https://github.com/jokieleung/awesome-visual-question-answering
   github_id: jokieleung/awesome-visual-question-answering
-  image: ./screenshots/awesome-visual-question-answering.png
+  image: ./screenshots/awesome-visual-question-answering.jpeg
   category: 图文转换ImageCaptioning与视觉问答VQA
   show: true
 - name: MILVLG-openvqa
@@ -422,14 +422,14 @@ projects:
   description: dabasajay Image-Caption-Generator
   homepage: https://github.com/dabasajay/Image-Caption-Generator
   github_id: dabasajay/Image-Caption-Generator
-  image: ./screenshots/Image-Caption-Generator.png
+  image: ./screenshots/Image-Caption-Generator.jpeg
   category: 图文转换ImageCaptioning与视觉问答VQA
   show: true
 - name: NVlabs-MUNIT
   description: NVlabs MUNIT
   homepage: https://github.com/NVlabs/MUNIT
   github_id: NVlabs/MUNIT
-  image: ./screenshots/NVlabs-MUNIT.png
+  image: ./screenshots/NVlabs-MUNIT.jpeg
   category: 图图转换ImageTranslation
   show: true
 - name: UGATIT
@@ -443,7 +443,7 @@ projects:
   description: phillipi pix2pix
   homepage: https://github.com/phillipi/pix2pix
   github_id: phillipi/pix2pix
-  image: ./screenshots/pix2pix.png
+  image: ./screenshots/pix2pix.jpeg
   category: 图图转换ImageTranslation
   show: true
 - name: pytorch-CycleGAN-and-pix2pix
@@ -457,7 +457,7 @@ projects:
   description: znxlwm UGATIT-pytorch
   homepage: https://github.com/znxlwm/UGATIT-pytorch
   github_id: znxlwm/UGATIT-pytorch
-  image: ./screenshots/UGATIT-pytorch.png
+  image: ./screenshots/UGATIT-pytorch.jpeg
   category: 图图转换ImageTranslation
   show: true
 - name: pixel2style2pixel
@@ -478,28 +478,28 @@ projects:
   description: HsinYingLee DRIT
   homepage: https://github.com/HsinYingLee/DRIT
   github_id: HsinYingLee/DRIT
-  image: ./screenshots/DRIT.png
+  image: ./screenshots/DRIT.jpeg
   category: 图图转换ImageTranslation
   show: true
 - name: vid2vid
   description: NVIDIA vid2vid
   homepage: https://github.com/NVIDIA/vid2vid
   github_id: NVIDIA/vid2vid
-  image: ./screenshots/vid2vid.png
+  image: ./screenshots/vid2vid.gif
   category: 图图转换ImageTranslation
   show: true
 - name: waifu2x
   description: nagadomi waifu2x
   homepage: https://github.com/nagadomi/waifu2x
   github_id: nagadomi/waifu2x
-  image: ./screenshots/waifu2x.png
+  image: ./screenshots/waifu2x.jpeg
   category: 图像超分辨率
   show: true
 - name: srez
   description: david-gpu srez
   homepage: https://github.com/david-gpu/srez
   github_id: david-gpu/srez
-  image: ./screenshots/srez.png
+  image: ./screenshots/srez.jpeg
   category: 图像超分辨率
   show: true
 - name: ESRGAN
@@ -513,14 +513,14 @@ projects:
   description: idealo image-super-resolution
   homepage: https://github.com/idealo/image-super-resolution
   github_id: idealo/image-super-resolution
-  image: ./screenshots/image-super-resolution.png
+  image: ./screenshots/image-super-resolution.jpeg
   category: 图像超分辨率
   show: true
 - name: srgan
   description: tensorlayer srgan
   homepage: https://github.com/tensorlayer/srgan
   github_id: tensorlayer/srgan
-  image: ./screenshots/srgan.png
+  image: ./screenshots/srgan.jpeg
   category: 图像超分辨率
   show: true
 - name: BasicSR
@@ -541,21 +541,21 @@ projects:
   description: LoSealL VideoSuperResolution
   homepage: https://github.com/LoSealL/VideoSuperResolution
   github_id: LoSealL/VideoSuperResolution
-  image: ./screenshots/VideoSuperResolution.png
+  image: ./screenshots/VideoSuperResolution.jpeg
   category: 图像超分辨率
   show: true
 - name: super-resolution
   description: krasserm super-resolution
   homepage: https://github.com/krasserm/super-resolution
   github_id: krasserm/super-resolution
-  image: ./screenshots/super-resolution.png
+  image: ./screenshots/super-resolution.jpeg
   category: 图像超分辨率
   show: true
 - name: Awesome-Super-Resolution
   description: ChaofWang Awesome-Super-Resolution
   homepage: https://github.com/ChaofWang/Awesome-Super-Resolution
   github_id: ChaofWang/Awesome-Super-Resolution
-  image: ./screenshots/Awesome-Super-Resolution.png
+  image: ./screenshots/Awesome-Super-Resolution.jpeg
   category: 图像超分辨率
   show: true
 - name: DBFace
@@ -569,21 +569,21 @@ projects:
   description: timesler facenet-pytorch
   homepage: https://github.com/timesler/facenet-pytorch
   github_id: timesler/facenet-pytorch
-  image: ./screenshots/facenet-pytorch.png
+  image: ./screenshots/facenet-pytorch.gif
   category: 人脸检测与识别
   show: true
 - name: awesome-Face_Recognition
   description: ChanChiChoi awesome-Face_Recognition
   homepage: https://github.com/ChanChiChoi/awesome-Face_Recognition
   github_id: ChanChiChoi/awesome-Face_Recognition
-  image: ./screenshots/awesome-Face_Recognition.png
+  image: ./screenshots/awesome-Face_Recognition.jpeg
   category: 人脸检测与识别
   show: true
 - name: Ultra-Light-Fast-Generic-Face-Detector-1MB
   description: Linzaer Ultra-Light-Fast-Generic-Face-Detector-1MB
   homepage: https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
   github_id: Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
-  image: ./screenshots/Ultra-Light-Fast-Generic-Face-Detector-1MB.png
+  image: ./screenshots/Ultra-Light-Fast-Generic-Face-Detector-1MB.jpeg
   category: 人脸检测与识别
   show: true
 - name: libfacedetection
@@ -597,28 +597,28 @@ projects:
   description: CMU-Perceptual-Computing-Lab openpose
   homepage: https://github.com/CMU-Perceptual-Computing-Lab/openpose
   github_id: CMU-Perceptual-Computing-Lab/openpose
-  image: ./screenshots/openpose.png
+  image: ./screenshots/openpose.jpeg
   category: 人脸检测与识别
   show: true
 - name: face_recognition
   description: ageitgey face_recognition
   homepage: https://github.com/ageitgey/face_recognition
   github_id: ageitgey/face_recognition
-  image: ./screenshots/face_recognition.png
+  image: ./screenshots/face_recognition.gif
   category: 人脸检测与识别
   show: true
 - name: openface
   description: cmusatyalab openface
   homepage: https://github.com/cmusatyalab/openface
   github_id: cmusatyalab/openface
-  image: ./screenshots/openface.png
+  image: ./screenshots/openface.jpeg
   category: 人脸检测与识别
   show: true
 - name: facenet
   description: davidsandberg facenet
   homepage: https://github.com/davidsandberg/facenet
   github_id: davidsandberg/facenet
-  image: ./screenshots/facenet.png
+  image: ./screenshots/facenet.jpeg
   category: 人脸检测与识别
   show: true
 - name: facenet-pytorch
@@ -632,14 +632,14 @@ projects:
   description: RiweiChen DeepFace
   homepage: https://github.com/RiweiChen/DeepFace
   github_id: RiweiChen/DeepFace
-  image: ./screenshots/DeepFace.png
+  image: ./screenshots/DeepFace.jpeg
   category: 人脸检测与识别
   show: true
 - name: deepface
   description: serengil deepface
   homepage: https://github.com/serengil/deepface
   github_id: serengil/deepface
-  image: ./screenshots/deepface.png
+  image: ./screenshots/DeepFace2.jpeg
   category: 人脸检测与识别
   show: true
 - name: awesome-gan-for-medical-imaging
@@ -667,14 +667,14 @@ projects:
   description: DLTK DLTK
   homepage: https://github.com/DLTK/DLTK
   github_id: DLTK/DLTK
-  image: ./screenshots/DLTK.png
+  image: ./screenshots/DLTK.jpeg
   category: 医疗影像
   show: true
 - name: MITK
   description: MITK MITK
   homepage: https://github.com/MITK/MITK
   github_id: MITK/MITK
-  image: ./screenshots/MITK.png
+  image: ./screenshots/MITK.jpeg
   category: 医疗影像
   show: true
 - name: medicaltorch
@@ -716,7 +716,7 @@ projects:
   description: thatbrguy Pedestrian-Detection
   homepage: https://github.com/thatbrguy/Pedestrian-Detection
   github_id: thatbrguy/Pedestrian-Detection
-  image: ./screenshots/Pedestrian-Detection.png
+  image: ./screenshots/Pedestrian-Detection.jpeg
   category: 行人检测
   show: true
 - name: Pedestrian-Detection-papers
@@ -730,35 +730,35 @@ projects:
   description: zhangpengpengpeng PedestrianDetectionSystem
   homepage: https://github.com/zhangpengpengpeng/PedestrianDetectionSystem
   github_id: zhangpengpengpeng/PedestrianDetectionSystem
-  image: ./screenshots/PedestrianDetectionSystem.png
+  image: ./screenshots/PedestrianDetectionSystem.jpeg
   category: 行人检测
   show: true
 - name: apollo
   description: ApolloAuto apollo
   homepage: https://github.com/ApolloAuto/apollo
   github_id: ApolloAuto/apollo
-  image: ./screenshots/apollo.png
+  image: ./screenshots/apollo.jpeg
   category: 自动驾驶
   show: true
 - name: carla
   description: carla-simulator carla
   homepage: https://github.com/carla-simulator/carla
   github_id: carla-simulator/carla
-  image: ./screenshots/carla.png
+  image: ./screenshots/carla.jpeg
   category: 自动驾驶
   show: true
 - name: AutonomousDrivingCookbook
   description: microsoft AutonomousDrivingCookbook
   homepage: https://github.com/microsoft/AutonomousDrivingCookbook
   github_id: microsoft/AutonomousDrivingCookbook
-  image: ./screenshots/AutonomousDrivingCookbook.png
+  image: ./screenshots/AutonomousDrivingCookbook.jpeg
   category: 自动驾驶
   show: true
 - name: awesome-autonomous-vehicles
   description: manfreddiaz awesome-autonomous-vehicles
   homepage: https://github.com/manfreddiaz/awesome-autonomous-vehicles
   github_id: manfreddiaz/awesome-autonomous-vehicles
-  image: ./screenshots/awesome-autonomous-vehicles.png
+  image: ./screenshots/awesome-autonomous-vehicles.jpeg
   category: 自动驾驶
   show: true
 - name: Awesome-Autonomous-Driving
@@ -779,7 +779,7 @@ projects:
   description: hindupuravinash the-gan-zoo
   homepage: https://github.com/hindupuravinash/the-gan-zoo
   github_id: hindupuravinash/the-gan-zoo
-  image: ./screenshots/the-gan-zoo.png
+  image: ./screenshots/the-gan-zoo.jpeg
   category: 生成对抗网络GAN
   show: true
 - name: ganhacks
@@ -843,13 +843,6 @@ projects:
   homepage: https://github.com/facebookresearch/pytorch_GAN_zoo
   github_id: facebookresearch/pytorch_GAN_zoo
   image: ./screenshots/pytorch_GAN_zoo.png
-  category: 生成对抗网络GAN
-  show: true
-- name: Advanced-Deep-Learning-with-Keras
-  description: PacktPublishing Advanced-Deep-Learning-with-Keras
-  homepage: https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras
-  github_id: PacktPublishing/Advanced-Deep-Learning-with-Keras
-  image: ./screenshots/Advanced-Deep-Learning-with-Keras.png
   category: 生成对抗网络GAN
   show: true
 - name: nni
