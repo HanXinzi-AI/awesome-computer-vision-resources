@@ -765,7 +765,7 @@ projects:
   description: autonomousdrivingkr Awesome-Autonomous-Driving
   homepage: https://github.com/autonomousdrivingkr/Awesome-Autonomous-Driving
   github_id: autonomousdrivingkr/Awesome-Autonomous-Driving
-  image: ./screenshots/Awesome-Autonomous-Driving.png
+  image: ./screenshots/Awesome-Autonomous-Driving.gif
   category: 自动驾驶
   show: true
 - name: SMARTS
