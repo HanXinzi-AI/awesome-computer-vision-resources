@@ -908,3 +908,73 @@ projects:
   image: ./screenshots/Data-Efficient-Model-Compression.png
   category: 模型压缩与优化
   show: true
+- name: MJev-Spatial
+  description: Supervised spatial prediction over choices, numerical bins and image
+    regions using pretrained attention Q/K projections.
+  homepage: https://github.com/Fr0zenCrane/MJev-Spatial
+  github_id: Fr0zenCrane/MJev-Spatial
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: VideoJev
+  description: A shared candidate-scoring head for temporal grounding and multiple-choice
+    video QA, with video-prefix computation reuse.
+  homepage: https://github.com/MCG-NJU/VideoJev
+  github_id: MCG-NJU/VideoJev
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: OneStreamer
+  description: Timestamped detail/event caption memory and response-state supervision
+    for streaming perception and proactive interaction.
+  homepage: https://github.com/MCG-NJU/OneStreamer
+  github_id: MCG-NJU/OneStreamer
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: TimeLens2
+  description: Query-supported video temporal intervals learned from verified instruction
+    data and temporal-grounding GRPO.
+  homepage: https://github.com/MCG-NJU/TimeLens2
+  github_id: MCG-NJU/TimeLens2
+  category: 其他
+  show: true
+- name: VideoChat3
+  description: An open video MLLM with MoonViT-initialized I3D-ViT, spatiotemporal
+    token compression and released training data.
+  homepage: https://github.com/MCG-NJU/VideoChat3
+  github_id: MCG-NJU/VideoChat3
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: JoyAI-VL-Interaction
+  description: A vision-first interaction model with per-second silence, response
+    and delegation decisions and a concurrent background loop.
+  homepage: https://github.com/jd-opensource/JoyAI-VL-Interaction
+  github_id: jd-opensource/JoyAI-VL-Interaction
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: Video-o3
+  description: Long-video multi-hop QA through native interleaved VideoCrop evidence
+    seeking, task-decoupled attention and trajectory-guided training.
+  homepage: https://github.com/MCG-NJU/Video-o3
+  github_id: MCG-NJU/Video-o3
+  category: 图文转换ImageCaptioning与视觉问答VQA
+  show: true
+- name: FreeRet
+  description: Semantic retrieval and visual classification through unchanged MLLM
+    embeddings and neutral-choice reranking.
+  homepage: https://github.com/MCG-NJU/FreeRet
+  github_id: MCG-NJU/FreeRet
+  category: 其他
+  show: true
+- name: MoG-VFI
+  description: Flow-guided latent/feature injection adapts pretrained video diffusion
+    to frame interpolation by selectively tuning spatial layers.
+  homepage: https://github.com/MCG-NJU/MoG-VFI
+  github_id: MCG-NJU/MoG-VFI
+  category: 其他
+  show: true
+- name: AWT
+  description: Vision-language transfer using augmentation, confidence weighting and
+    optimal transport, with image and video-classification evaluations.
+  homepage: https://github.com/MCG-NJU/AWT
+  github_id: MCG-NJU/AWT
+  category: 图像分类
+  show: true
